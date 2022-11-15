@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.41ed2791.css",
-    "main.js": "/static/js/main.ac458445.js",
+    "main.js": "/static/js/main.08c30b8d.js",
     "static/js/787.b2e1b36e.chunk.js": "/static/js/787.b2e1b36e.chunk.js",
     "static/media/Data Structures.gif": "/static/media/Data Structures.e91429b65669192dce97.gif",
     "static/media/Backend Development.gif": "/static/media/Backend Development.3a2506b4e1de69978cce.gif",
@@ -9,14 +9,13 @@
     "static/media/Front End Development.gif": "/static/media/Front End Development.e4c67ad565fb9f4120d6.gif",
     "static/media/Ayush portfolio.jpg": "/static/media/Ayush portfolio.f11c41930ff6d21ff782.jpg",
     "static/media/Ayush_Anshu_Resume.pdf": "/static/media/Ayush_Anshu_Resume.543c1eb250d513d6c883.pdf",
-    "static/media/Suman_Khan_Resume.pdf": "/static/media/Suman_Khan_Resume.00610b05fdf3b5a1b443.pdf",
     "index.html": "/index.html",
     "main.41ed2791.css.map": "/static/css/main.41ed2791.css.map",
-    "main.ac458445.js.map": "/static/js/main.ac458445.js.map",
+    "main.08c30b8d.js.map": "/static/js/main.08c30b8d.js.map",
     "787.b2e1b36e.chunk.js.map": "/static/js/787.b2e1b36e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41ed2791.css",
-    "static/js/main.ac458445.js"
+    "static/js/main.08c30b8d.js"
   ]
 }
