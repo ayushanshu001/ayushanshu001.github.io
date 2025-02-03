@@ -22,6 +22,7 @@ export default function App() {
       </section>
       <main>
         <About />
+
         <Github />
         <section id="#projects">
           <Projects />

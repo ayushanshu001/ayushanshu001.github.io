@@ -8,7 +8,9 @@ import {
   SiNodedotjs,
   SiRedux,
   SiReact,
-  SiJavascript
+  SiJavascript,
+  SiPostgresql,
+  SiNextdotjs,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
@@ -16,6 +18,8 @@ import blinkit from "../../Assets/Requird-image/blinkit.png";
 import royal from "../../Assets/Requird-image/royal.png";
 import saasameal from "../../Assets/Requird-image/saasameal.png";
 import naukri from "../../Assets/Requird-image/naukri.png";
+import Hilltop from "../../Assets/Requird-image/Hilltop.PNG";
+import NINO from "../../Assets/Requird-image/NINO.PNG";
 
 export const Projects = () => {
   return (
@@ -29,22 +33,121 @@ export const Projects = () => {
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
-                <img src={saasameal} alt="Saasameal.com" />
+                <img src={Hilltop} alt="hilltopgranite.com/" />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Saasa meal</h2>
+              <h2>Hilltop Granite</h2>
               <p>
-              Saasa meal is a meat-free lifestyle platform, indulging you with delicious discounted vegetarian meals at cozy environments. This is collaborative project and we are 5 collaborators.
+                It was founded in 1987 by Kamal Giria and Nilesh Giria. It has
+                established itself as a trusted leader in the stone industry,
+                making us one of India's largest manufacturers of granite,
+                marble, and quartz.
               </p>
               <div>
                 <SiHtml5 />
                 <DiCss3 />
-                <SiReact/>
-                <SiRedux/>
-                <SiNodedotjs/>
-                <SiExpress/>
-                <SiMongodb/>
+                <SiReact />
+                <SiNextdotjs />
+                <SiRedux />
+                <SiNodedotjs />
+                <SiExpress />
+                <SiPostgresql />
+              </div>
+              <div>
+                <a
+                  href="https://www.hilltopgranite.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                {/* <a
+                  href="https://github.com/Sandipmaury/premium-grade-140"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a> */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img src={NINO} alt="ninobyvani.com/" />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>NINO</h2>
+              <p>
+                Nino by Vani Mehta is an e-commerce website specializing in
+                premium children's clothing, offering a range of ethnic and
+                western wear. It provides a seamless shopping experience with
+                curated collections, high-quality imagery, and an intuitive
+                interface for easy browsing and purchasing.
+              </p>
+              <div>
+                <SiHtml5 />
+                <DiCss3 />
+                <SiReact />
+                <SiNextdotjs />
+                <SiRedux />
+                <SiNodedotjs />
+                <SiExpress />
+                <SiPostgresql />
+              </div>
+              <div>
+                <a
+                  href="https://www.ninobyvani.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                {/* <a
+                  href="https://github.com/Sandipmaury/premium-grade-140"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a> */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img src={saasameal} alt="Saasameal.com" />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>Saasa Meal</h2>
+              <p>
+                Saasa meal is a meat-free lifestyle platform, indulging you with
+                delicious discounted vegetarian meals at cozy environments. This
+                is collaborative project and we are 5 collaborators.
+              </p>
+              <div>
+                <SiHtml5 />
+                <DiCss3 />
+                <SiReact />
+                <SiRedux />
+                <SiNodedotjs />
+                <SiExpress />
+                <SiMongodb />
               </div>
               <div>
                 <a
@@ -81,7 +184,9 @@ export const Projects = () => {
             <div className="project_information" data-aos="fade-right">
               <h2>Royal Enfield Clone</h2>
               <p>
-              This project is a clone of the Royal Enfield website. During our construct week in Masai School, we as a group of 6 members collaborated and cloned the website within 6 days time.
+                This project is a clone of the Royal Enfield website. During our
+                construct week in Masai School, we as a group of 6 members
+                collaborated and cloned the website within 6 days time.
               </p>
               <div>
                 <SiHtml5 />
@@ -122,12 +227,18 @@ export const Projects = () => {
             <div className="project_information" data-aos="fade-right">
               <h2>Blinkit Clone</h2>
               <p>
-              Blinkit (formerly Grofers) is an Indian instant delivery service. Customers of the company use a mobile application to order groceries and essentials online.Cloning Blinkit was our project for Unit-3 Construct week at Masai School. Our main objective was to complete all main functionality of this e-commerce website , such as sing up to till to the buying of a product. We have completed this project in 5 days.
+                Blinkit (formerly Grofers) is an Indian instant delivery
+                service. Customers of the company use a mobile application to
+                order groceries and essentials online.Cloning Blinkit was our
+                project for Unit-3 Construct week at Masai School. Our main
+                objective was to complete all main functionality of this
+                e-commerce website , such as sing up to till to the buying of a
+                product. We have completed this project in 5 days.
               </p>
               <div>
                 <SiHtml5 />
                 <DiCss3 />
-                <SiJavascript/>
+                <SiJavascript />
               </div>
               <div>
                 <a
@@ -163,13 +274,15 @@ export const Projects = () => {
             <div className="project_information" data-aos="fade-right">
               <h2>Naukri.com Clone</h2>
               <p>
-              Naukri.com is a recruitment platform that provide hiring related services to corporates, placement agencies and job seekers in India and overseas.
+                Naukri.com is a recruitment platform that provide hiring related
+                services to corporates, placement agencies and job seekers in
+                India and overseas.
               </p>
               <div>
                 <SiHtml5 />
                 <DiCss3 />
-                <SiReact/>
-                <SiRedux/>
+                <SiReact />
+                <SiRedux />
               </div>
               <div>
                 <a

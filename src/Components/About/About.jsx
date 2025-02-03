@@ -11,6 +11,7 @@ import PublicIcon from "@material-ui/icons/Public";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
+import { WorkExperience } from "../Experience/Experience";
 export const About = () => {
   return (
     <>
@@ -20,11 +21,10 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          Software development professional, adept at engineering robust and
-          user-centric solutions. Collaborative, team player who is proficient
-          in working with interdisciplinary teams and executing goal oriented
-          projects. Strongly interested in obtaining a Software Developer
-          position to work on enhancing the product experience.
+          Detail-oriented and proactive Full-Stack Web Developer with expertise
+          in the MERN stack.Experienced in collaborative project management and
+          agile methodologies.Passionate about creating user-centric and
+          scalable solutions to complex problems.
         </p>
         <div className="about__contact center">
           <a
@@ -64,7 +64,7 @@ export const About = () => {
             <LinkedInIcon />
           </a>
           <a
-            href="https://drive.google.com/file/d/1pCmhp5jGr_BEL5Zk3g118GNVgKHSyjXo/view?usp=share_link"
+            href="https://drive.google.com/file/d/147LC0KNvFwoHnQkmQhr-bNKCHX-4RWWD/view?usp=sharing"
             aria-label="github"
             className="link link--icon"
             target="_blank"
@@ -74,6 +74,7 @@ export const About = () => {
           </a>
         </div>
       </div>
+      <section id="#work-exp"><WorkExperience/></section>
       <Introduction />
       <Timeline />
       <section id="#skills">

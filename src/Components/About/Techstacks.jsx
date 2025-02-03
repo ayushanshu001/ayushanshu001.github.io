@@ -8,6 +8,7 @@ import {
   SiExpress,
   SiTailwindcss,
   SiNetlify,
+  SiNextdotjs
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
@@ -21,10 +22,6 @@ export const Techstacks = () => {
         <h2 className="section__title different">Skills</h2>
         <div className="techsection">
           <div>
-            <SiJavascript />
-            <h5>Javascript</h5>
-          </div>
-          <div>
             <SiHtml5 />
             <h5>HTML</h5>
           </div>
@@ -33,12 +30,8 @@ export const Techstacks = () => {
             <h5>CSS</h5>
           </div>
           <div>
-            <FaNodeJs />
-            <h5>Nodejs</h5>
-          </div>
-          <div>
-            <SiExpress />
-            <h5>Express</h5>
+            <SiJavascript />
+            <h5>Javascript</h5>
           </div>
           <div>
             <FaReact />
@@ -57,8 +50,20 @@ export const Techstacks = () => {
             <h5>Bootstrap</h5>
           </div>
           <div>
+            <FaNodeJs />
+            <h5>Nodejs</h5>
+          </div>
+          <div>
+            <SiExpress />
+            <h5>Express</h5>
+          </div>
+          <div>
             <SiNetlify />
             <h5>Netlify</h5>
+          </div>
+          <div>
+            <SiNextdotjs />
+            <h5>Nextjs</h5>
           </div>
           <div>
             <VscGithub />
